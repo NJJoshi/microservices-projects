@@ -31,12 +31,12 @@ For config/server.properties
 7. To make sure topic has been created, run this command: kafka-topics.bat --bootstrap-server localhost:9092 --list
 ### Step 3:
 Once Step 2 is done successfully, We should be starting up microservices into following order.
-1. config-server
-2. Service-discovery
-3. Order Service
+1. Service-discovery
+2. config-server
+3. Gateway Service
 4. Payment Service
 5. User Service
-6. Gateway Service
+6. Order Service
 
 After these steps , You should be able to run microservices on your local machine. 
 
