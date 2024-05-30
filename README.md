@@ -14,10 +14,11 @@ In order to run these projects, You will need to download Kafka Server with Zook
 Here are few basic commands to run kafka locally on your system.
 1. Go to your kafka directory and go to your bin directory inside kafka folder. If you are running it on your windows then you need to go further inside windows folder where you will going to find all kafka commands .bat files.
 2.You need to make sure that your kakfa's config/zookeeper.properties and config/server.properties have below metioned properties uncommented.
-  For config/zookeeper.properties
-      ##### the port at which the clients will connect
+
+For config/zookeeper.properties
       clientPort=2181
-   For config/server.properties
+
+For config/server.properties
      zookeeper.connect=localhost:2181
 3. After that you need to start zookeeper. In order to start it run command: zookeeper-server-start.bat ../config/zookeeper.properties
 4. After zookeeper got started, You need to start Kafka Server/Broker. To do that run this command: kafka-server-start.bat ../config/server.properties
