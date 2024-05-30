@@ -1,4 +1,4 @@
-### Briefing about project purpose 
+# Briefing about project purpose 
 Here we have complete set of spring boot based microservice application where we have implemented below mentioned microservice patterns:
 
 1. Service Discovery Pattern
